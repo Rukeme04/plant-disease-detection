@@ -6,4 +6,5 @@ seaborn==0.13.0
 pandas==2.1.0
 streamlit==1.28.0
 Pillow==10.0.0
-h5py==3.8.0 
+h5py==3.8.0
+gunicorn==20.1.0 
