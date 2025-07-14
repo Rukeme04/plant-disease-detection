@@ -30,7 +30,7 @@ The full functionality with the trained model will be available once deployment 
 uploaded_file = st.file_uploader("Choose an image file", type=['jpg', 'jpeg', 'png'])
 
 if uploaded_file is not None:
-    st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+    st.image(uploaded_file, caption='Uploaded Image', use_container_width=True)
     
     if st.button('Predict'):
         st.success("✅ Deployment successful! This is a test prediction.")
